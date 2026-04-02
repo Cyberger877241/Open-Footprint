@@ -1,4 +1,4 @@
-# DigitalFootprint 🔍
+# OpenFootprint 🔍
 
 > **Open-source OSINT intelligence platform.** Aggregate digital identities from publicly available data sources — emails, usernames, developer profiles, news mentions — with AI-powered orchestration and graph-based identity resolution.
 
@@ -10,9 +10,9 @@
 
 ---
 
-## What is DigitalFootprint?
+## What is OpenFootprint?
 
-DigitalFootprint is a modular OSINT (Open Source Intelligence) platform that lets you search for a person's digital presence across the public web by providing a name, email address, or username.
+OpenFootprint is a modular OSINT (Open Source Intelligence) AI platform that lets you search for a person's digital presence across the public web by providing a name, email address, or username.
 
 It runs multiple **data connectors** in parallel, uses a **LangChain AI agent** to orchestrate findings intelligently, performs **identity resolution** with confidence scoring, stores results in a **Neo4j identity graph**, and surfaces everything in a **Next.js dashboard** with force-directed graph visualization.
 
@@ -98,7 +98,7 @@ All sources are **publicly available** and used within free tier limits:
 | **HackerNews** | HN story/comment search | Unlimited | No |
 | **DEV.to** | Developer articles | Unlimited | No |
 
-> **Note:** DigitalFootprint respects `robots.txt`, API rate limits, and platform Terms of Service. It does not scrape platforms that prohibit crawling.
+> **Note:** OpenFootprint respects `robots.txt`, API rate limits, and platform Terms of Service. It does not scrape platforms that prohibit crawling.
 
 ---
 
