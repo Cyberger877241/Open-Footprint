@@ -1,4 +1,4 @@
-# OpenFootprint 🔍
+# OpenFootprint
 
 > **Open-source OSINT intelligence platform.** Aggregate digital identities from publicly available data sources — emails, usernames, developer profiles, news mentions — with AI-powered orchestration and graph-based identity resolution.
 
