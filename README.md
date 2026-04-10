@@ -1,6 +1,6 @@
 # OpenFootprint
 
-> **Open-source OSINT intelligence platform.** Aggregate digital identities from publicly available data sources — emails, usernames, developer profiles, news mentions — with AI-powered orchestration and graph-based identity resolution.
+> **Open-source OSINT intelligence platform.** Aggregate digital identities from publicly available data sources emails, usernames, developer profiles, news mentions with AI-powered orchestration and graph-based identity resolution.
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)
