@@ -1,9 +1,4 @@
 """
-DigitalFootprint — Lens Agent
-==============================
-A standalone Google Lens-powered visual analysis agent.
-Completely independent from the main OSINT platform.
-
 Install:
     pip install google-adk GoogleLens
 
@@ -20,11 +15,6 @@ from typing import Any
 from google.adk.agents import LlmAgent
 from GoogleLens import GoogleLens
 
-
-# ──────────────────────────────────────────────────────────────
-# Tool
-# ──────────────────────────────────────────────────────────────
-
 def google_image(url: str) -> dict[str, Any]:
     """
     Upload an image URL to Google Lens and return visual search results.
@@ -39,11 +29,6 @@ def google_image(url: str) -> dict[str, Any]:
     result_url = lens.upload_image(url)
     visual_result = result_url.extract_visual_results()
     return visual_result
-
-
-# ──────────────────────────────────────────────────────────────
-# Agent
-# ──────────────────────────────────────────────────────────────
 
 lens_agent = LlmAgent(
     name="LensAgent",
@@ -88,11 +73,6 @@ Deliver the most accurate and useful interpretation of the image using Google Le
     """,
     tools=[google_image],
 )
-
-
-# ──────────────────────────────────────────────────────────────
-# CLI entrypoint
-# ──────────────────────────────────────────────────────────────
 
 def run(url: str) -> str:
     """Run the lens agent on an image URL and return the analysis."""
