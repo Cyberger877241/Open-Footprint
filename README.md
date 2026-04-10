@@ -9,7 +9,7 @@
 ![Docker](https://img.shields.io/badge/Docker-Compose-blue)
 
 ---
-<img width="1540" height="1104" alt="Screenshot 2026-03-31 003720" src="https://github.com/user-attachments/assets/6d205fc8-a010-429a-9149-61ef8ff6c14f" />
+<img width="540" height="104" alt="Screenshot 2026-03-31 003720" src="https://github.com/user-attachments/assets/6d205fc8-a010-429a-9149-61ef8ff6c14f" />
 
 
 ## What is OpenFootprint?
